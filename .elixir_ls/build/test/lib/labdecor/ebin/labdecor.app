@@ -1,5 +1,5 @@
 {application,labdecor,
-             [{applications,[kernel,stdlib,elixir,logger]},
+             [{applications,[kernel,stdlib,elixir,logger,jason]},
               {description,"labdecor"},
               {modules,['Elixir.Labdecor']},
               {registered,[]},
