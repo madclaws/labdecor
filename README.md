@@ -1,21 +1,13 @@
 # Labdecor
 
-**TODO: Add description**
+**vscode settings.json editing commandline tool in elixir**
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `labdecor` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:labdecor, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/labdecor](https://hexdocs.pm/labdecor).
-
+ * Run labdecor file that is in the root directory (which doesn't have an extension) as
+ ```
+ escript labdecor
+ ```
+ * This will create a .vscode directory with a settings file, that have a random color attribute.
+ * Open your vscode , that's it your titlebar got some glamour!!
+ ** Prerequisite: You must have BEAM(Erlang VM) installed.
+ * You can add this labdecor executable to the PATH and use it globally.
